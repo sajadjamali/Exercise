@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+
+header{
+    padding: 30px 20px;
+    background-color: #1db1b4;
+    height: 150px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+nav{
+    width: 20%;
+
+    float: left;
+}
+
+a{
+    cursor: pointer;
+    border-bottom: 1px solid #867e7e;
+    display: block;
+    font-size: 20px;
+    color: #333546;
+    text-decoration: none;
+}
+
+main{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.right{
+    background-color: lightpink;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+
+.main{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+aside{
+    background-color: lightpink;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.main-container{
+    overflow: auto;
+}
+
+.menu{
+
+    float: left;
+    width: 20%;
+}
+
+
+.menuitem{
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 802px){
+    main{
+        width: 80%;
+        padding: 0;
+    }
+    aside{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    nav, main, aside{
+        width: 100%;
+    }
+}
+
+/*@media only screen and (max-width:800px){*/
+/*    !* For tablets: *!*/
+/*    .main{*/
+/*        width: 80%;*/
+/*        padding: 0;*/
+/*    }*/
+/*    .right{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width:500px){*/
+/*    !* For mobile phones: *!*/
+/*    .menu,*/
+/*    .main,*/
+/*    .right{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
